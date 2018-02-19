@@ -15,6 +15,7 @@ Thermostat Supreme works with the use of 3 main components:
  3. Triggers
 
 > **Relation**
+>
 > A Thermostat -> *has many* -> Temperature Sensors
 >
 > A Temperature Sensor -> *has many* -> Triggers
@@ -28,6 +29,7 @@ Temperature sensors will report the temperature back to the SmartThings app and 
 It is best to think of the thermostat as a thermostat AND a temperature sensor.
 
 > **Config - Main Sensor** 
+>
 > Each temperature sensor (including the main thermostat sensor) must be set to either the main sensor for Heating, Cooling, or None. The main sensor is the one which will take precedence and which temperature setpoints will be used when the thermostat is set to the configured state.
 
 ### Triggers
@@ -49,7 +51,3 @@ This system has a few flows of data.
  1. Temperature change - on a temperature change the system checks any require and negate triggers for the specified sensor and then continues to send control commands to the thermostat
  2. Contact sensor opens - when a contact sensor that is configured as a negate trigger for a temperature sensor opens it will begin a countdown configured as the delay time. Once the delay is met, it will shutdown the thermostat. This only happens if the temperature sensor related to the contact sensor is the sensor that has activated the thermostat in the first place - otherwise, if a different temperature sensor activated the thermostat, no action will take place
  3. Presence sensor detected - when a presence sensor is detected the system will check all the other require and negate triggers for that temperature sensor - including the temperature. If needed the system then activates the thermostat
-
-**To work this app requires 2 child SmartApps:**
- 1. Thermostat Supreme Require Trigger 
- 2. Thermostat Supreme Temp Sensor
