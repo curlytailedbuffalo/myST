@@ -2,6 +2,7 @@
 ## SmartThings SmartApp for fully customizable thermostat control
 Thermostat supreme can help you to control your SmartThings thermostat using schedules, motion sensors, contact sensors, presence sensors and external temperature sensors. 
 This is a work in progress currently being tested without actually controlling the thermostat. The testing is being done with log entries as well as the stats given within the SmartApp regarding the last trigger and action.
+
 **Devices being tested with:** 
 1. CT100 Z-Wave Thermostat
 2. Misc Motion/Contact/Temperature Sensors
