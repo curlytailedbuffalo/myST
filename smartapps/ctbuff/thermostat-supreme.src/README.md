@@ -1,6 +1,11 @@
-# Thermostat Supreme
+# Thermostat Supreme Temp Sensor
 ## SmartThings SmartApp for fully customizable thermostat control
 Thermostat supreme can help you to control your SmartThings thermostat using schedules, motion sensors, contact sensors, presence sensors and external temperature sensors. 
+## Requirements
+
+ 1. This SmartApp
+ 2. [Thermostat Supreme Temp Sensor - child SmartApp](https://github.com/curlytailedbuffalo/myST/tree/master/smartapps/ctbuff/thermostat-supreme-temp-sensor.src)
+ 3. [Thermostat Supreme Require Trigger - child SmartApp](https://github.com/curlytailedbuffalo/myST/tree/master/smartapps/ctbuff/thermostat-supreme-require-trigger-src)
 
 ## How It Works
 Thermostat Supreme works with the use of 3 main components:
