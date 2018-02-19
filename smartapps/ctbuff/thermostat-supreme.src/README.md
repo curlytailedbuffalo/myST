@@ -17,9 +17,9 @@ Thermostat Supreme works with the use of 3 main components:
 
 > **Relation**
 >
->     A Thermostat -> *has many* -> Temperature Sensors
+>    A Thermostat -> *has many* -> Temperature Sensors
 >
->     A Temperature Sensor -> *has many* -> Triggers
+>    A Temperature Sensor -> *has many* -> Triggers
 
  
 ### Thermostat
@@ -32,7 +32,7 @@ It is best to think of the thermostat as a thermostat AND a temperature sensor.
 
 > **Config - Main Sensor** 
 >
->     Each temperature sensor (including the main thermostat sensor) must be set to either the main sensor for Heating, Cooling, or None. The main sensor is the one which will take precedence and which temperature setpoints will be used when the thermostat is set to the configured state.
+>    Each temperature sensor (including the main thermostat sensor) must be set to either the main sensor for Heating, Cooling, or None. The main sensor is the one which will take precedence and which temperature setpoints will be used when the thermostat is set to the configured state.
 
 ### Triggers
 There are many different triggers to be considered and each temperature sensor can be configured with their own triggers.
