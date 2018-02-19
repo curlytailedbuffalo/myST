@@ -16,6 +16,7 @@ Thermostat Supreme works with the use of 3 main components:
 
 > **Relation**
 > A Thermostat -> *has many* -> Temperature Sensors
+>
 > A Temperature Sensor -> *has many* -> Triggers
 
  
