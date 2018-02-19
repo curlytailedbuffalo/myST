@@ -4,8 +4,8 @@ Thermostat supreme can help you to control your SmartThings thermostat using sch
 ## Requirements
 
  1. This SmartApp
- 2. [Thermostat Supreme Temp Sensor - child SmartApp](https://github.com/curlytailedbuffalo/myST/tree/master/smartapps/ctbuff/thermostat-supreme-temp-sensor.src)
- 3. [Thermostat Supreme Require Trigger - child SmartApp](https://github.com/curlytailedbuffalo/myST/tree/master/smartapps/ctbuff/thermostat-supreme-require-trigger-src)
+ 2. [Thermostat Supreme Temp Sensor](https://github.com/curlytailedbuffalo/myST/tree/master/smartapps/ctbuff/thermostat-supreme-temp-sensor.src) - child SmartApp
+ 3. [Thermostat Supreme Require Trigger](https://github.com/curlytailedbuffalo/myST/tree/master/smartapps/ctbuff/thermostat-supreme-require-trigger-src) - child SmartApp
 
 ## How It Works
 Thermostat Supreme works with the use of 3 main components:
