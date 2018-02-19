@@ -10,9 +10,9 @@ Thermostat supreme can help you to control your SmartThings thermostat using sch
 ## How It Works
 Thermostat Supreme works with the use of 3 main components:
 
- **1. Thermostat
- 2. Temperature Sensors
- 3. Triggers**
+ 1. **Thermostat**
+ 2. **Temperature Sensors**
+ 3. **Triggers**
 
 > **Relation**
 >
