@@ -10,9 +10,9 @@ Thermostat supreme can help you to control your SmartThings thermostat using sch
 ## How It Works
 Thermostat Supreme works with the use of 3 main components:
 
- 1. Thermostat
+ **1. Thermostat
  2. Temperature Sensors
- 3. Triggers
+ 3. Triggers**
 
 > **Relation**
 >
@@ -45,8 +45,8 @@ There are many different triggers to be considered and each temperature sensor c
 	 A negate trigger works similar to a require trigger. A negate trigger is a contact sensor that can be added to a temperature sensor. The temperature sensor can only call for heating/cooling (is active) if the contact sensor is closed. 
 	 You can add many negate triggers, but unlike require triggers the delay is global for that temperature sensor.
 
-### Flow of Data
-This system has a few flows of data.
+## Action Flow
+**This system has a action flows:**
 
  1. Temperature change - on a temperature change the system checks any require and negate triggers for the specified sensor and then continues to send control commands to the thermostat
  2. Contact sensor opens - when a contact sensor that is configured as a negate trigger for a temperature sensor opens it will begin a countdown configured as the delay time. Once the delay is met, it will shutdown the thermostat. This only happens if the temperature sensor related to the contact sensor is the sensor that has activated the thermostat in the first place - otherwise, if a different temperature sensor activated the thermostat, no action will take place
